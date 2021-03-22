@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS GRID</title>
+</head>
+<style>
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px ;
+    column-gap: 10px;
+    height: 100vh;
+    background: green;
+    row-gap: 20px;
+
+  }
+
+  .box {
+    background: #000;
+  }
+
+  .header {
+    display: grid;
+    grid-template-columns: 264px 1fr;
+    grid-template-rows: 60px;
+  }
+
+  @media (max-width: 640px) {
+    .header {
+      grid-template-columns: 1fr;
+      grid-template-rows: 60px 40px;
+    }
+  }
+
+  .logo {
+    background: grey;
+
+  }
+
+  .nav {
+    background: red;
+  }
+
+
+
+</style>
+<body>
+
+  <div class="header">
+    <div class="logo"></div>
+    <div class="nav"></div>
+  </div>
+
+  <div class="grid">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+  </div>
+  </div>
+  
+</body>
+</html>

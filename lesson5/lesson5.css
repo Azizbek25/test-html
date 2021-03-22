@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.row  {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  background: grey;
+  align-items: center;
+}
+
+
+.block {
+  width: 300px;
+  height: 200px;
+  background: black;
+  margin: 5px;
+}
+

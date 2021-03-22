@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Widgets</title>
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  .container {
+    padding: 40px 20px 20px;
+  }
+
+  .widgets-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: 
+    "download amount amount photo photo"
+    "card card weather weather upload"
+    "card card calendar stats stats ";
+    gap: 36px;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 500px;
+
+  }
+
+  .widget {
+    border-radius: 40px;
+    background: gray;
+    padding: 50px 36px;
+  }
+
+  .widgets-double {
+    padding: 47px;
+  }
+
+  .widget-download {
+    grid-area: download;
+  }
+
+  .widget-amount {
+    grid-area: amount;
+  }
+
+  .widget-photo {
+    grid-area: photo;
+  }
+
+  .widget-card {
+    grid-area: card;
+  }
+
+  .widget-weather {
+    grid-area: weather;
+  }
+
+  .widget-upload {
+    grid-area: upload;
+  }
+
+  .widget-calendar{
+    grid-area: calendar;
+  }
+
+  .widget-stats{
+    grid-area: stats;
+  }
+
+  .text {
+    font-size: 56px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+  }
+
+  /* .text::after {
+    content: '856';
+    font-size: 56px;
+    color: ;
+  } */
+
+
+</style>
+<body>
+  <div class="container">
+    <div class="widgets-grid">
+      <div class="widget widget-download">
+        <p class="text">
+          <span>856</span>
+        </p>
+      </div>
+      <div class="widget widget-amount"></div>
+      <div class="widget widget-photo"></div>
+      <div class="widget wdget-card"></div>
+      <div class="widget widget-weather"></div>
+      <div class="widget widget-upload"></div>
+      <div class="widget widget-calendar"></div>
+      <div class="widget widget-stats"></div>
+      <div class="widget wiget--double widget-stats"></div>
+
+    </div>
+  </div>
+  
+</body>
+</html>

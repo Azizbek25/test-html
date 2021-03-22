@@ -1,0 +1,117 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+body, h1, p {
+  margin: 0px;
+  font-family: sans-serif;
+  
+}
+
+.welcome {
+  height: 100vh;
+  padding: 93px 166px;
+  background: url(./Background.png) center / cover;
+  color: white;
+
+}
+
+.image {
+
+}
+.navigation {
+  display: flex;
+  column-gap: 60px;
+  font-size: 18px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.logo {
+  font-size: 24px;
+
+}
+
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.welcome h2 {
+  margin-top: 141px;
+  margin-bottom: 26px;
+  font-size: 64px;
+
+}
+.welcome p {
+  margin-bottom: 106px;
+  font-size: 24px;
+}
+
+.link {
+  color: white;
+  font-size: 18px;
+}
+
+.skills {
+  padding: 93px 165px 145px;
+}
+
+.skills h2 {
+  margin-bottom: 86px;
+
+}
+
+.skills-content {
+  display: flex;
+  align-items: center;
+}
+
+.skills-content img {
+  margin-right: 125px;
+}
+.chart {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.chart li {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.title {
+  width: 189px;
+  font-weight: bold;
+}
+
+.chart li:first-of-type {
+  margin-bottom: 65px;
+}
+
+.chart li:last-of-type {
+  margin-bottom: 0;
+}
+
+.bar {
+  height: 24px;
+  width: 446px;
+  background: #F5D6AB;
+}
+
+.bar-progress {
+  height: 100%;
+  width: 80%;
+  background: #C66C49;
+}

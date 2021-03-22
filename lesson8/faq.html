@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+    }
+  .body {
+    margin: 0;
+
+}
+
+  .faq {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+  }
+  
+  .question {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.2);
+    margin-right: 12px;
+    margin-bottom: 12px;
+    width: calc(33.333%-8px);
+  }
+
+  .question:nth-last-of-type(3n) {
+    margin-right: 0;
+  }
+
+  @media(max-width:768px) {
+    .question {
+      width: calc(50% - 12px);
+    }
+
+    .question :nth-last-of-type(3n) {
+    margin-right: 12px;
+    }
+    .question: :nth-last-of-type(2n) {
+    margin-right: 0;
+  }
+
+  @media (max-width: 600px) {
+    .question:nth-last-of-type(1n);
+    width: 100%;
+    margin-right: 0;
+  }
+
+</style>
+
+<body>
+<div class="faq">
+  <div class="question">Lorem ipsum dolor sit.?</div>
+  <div class="question">Lorem ipsum dolor sit.?</div>
+  <div class="question">Lorem ipsum dolor sit.?</div>
+  <div class="question">Lorem ipsum dolor sit.?</div>
+  <div class="question">Lorem ipsum dolor sit.?</div>
+  <div class="question">Lorem ipsum dolor sit.?</div>
+  <div class="question">Lorem ipsum dolor sit.?</div>
+  <div class="question">Lorem ipsum dolor sit.?</div>
+  <div class="question">Lorem ipsum dolor sit.?</div>
+  <div class="question">Lorem ipsum dolor sit.?</div>
+</div>  
+</body>
+</html>

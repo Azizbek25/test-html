@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body, h1, p {
+  margin: 0;
+  color: white;
+
+
+}
+.container {
+  background:green;
+  text-align: center;
+  height: 500px;
+  padding-top: 136px;
+  background-image: url("./background.png");
+  background-position: center;
+  background-size: cover;
+
+}
+.container2 {
+  background: linear-gradient(90deg, #F27A54 -21.05%, #A154F2 121.05%), #3C444C;;
+  height: 500px;
+  padding-top: 109px;
+  padding-left: 120px;
+  text-align: left;
+  background-position: right;
+
+
+}
+
+h1 {
+  font-size: 44px;
+  margin-bottom: 38px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
+}
+.h2 {
+  width: 280px;
+  margin-bottom: 31px;
+  height: 112px;
+  line-height: 56px;
+  font-size: 44px;
+}
+
+p {
+  margin: 30px auto 38px;
+  width: 700px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+.p2 {
+  width: 400px;
+  height: 61px;
+  text-align: left;
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 700px;
+  margin-left: 0;
+}
+
+.button-color {
+  display: inline-block;
+  padding: 14px 13px;
+  background:  linear-gradient(90deg, #F27A54 -21.05%, #A154F2 121.05%);
+  width: 190px;
+  border-radius: 20px;
+  margin-right: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  
+}
+
+.button-border {
+  display: inline-block;
+  padding: 14px 13px;
+  width: 190px;
+  border-radius: 20px;
+  border: 1px solid white;
+  font-size: 10px;
+  font-weight: bold;
+
+}
+
+.button-clolor2 {
+  display: inline-block;
+  color: black;
+  padding: 14px 13px;
+  width: 190px;
+  background: white;
+  border-radius: 20px;
+  border: 1px solid white;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.button-border2 {
+  display: inline-block;
+  padding: 14px 13px;
+  width: 190px;
+  border-radius: 20px;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.phone {
+  display: inline-block;
+  position: absolute;
+  text-align: right;  
+  width: 636px;
+  height: 658px;
+  left: 629px;
+  top: 543px;
+}
